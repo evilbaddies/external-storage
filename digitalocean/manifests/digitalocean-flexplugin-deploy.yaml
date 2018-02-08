@@ -39,5 +39,5 @@ spec:
       - operator: Exists
       volumes:
       - hostPath:
-          path: <flex volume plugin dir, default: /usr/libexec/kubernetes/kubelet-plugins/volume/exec/>
+          path: /etc/kubernetes/volumeplugins
         name: flexvolume-mount
